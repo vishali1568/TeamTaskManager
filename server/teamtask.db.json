@@ -1,0 +1,47 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Demo User",
+        "email": "demo@example.com",
+        "password": "$2a$10$u7YmsaDP41ZAUQM92usDVeRLorAqI9N0NnFZXX9Qx5iONqoLKLQDW",
+        "role": "admin",
+        "created_at": "2026-05-04T14:15:43.929Z"
+      },
+      {
+        "id": 2,
+        "name": "vishali",
+        "email": "vishalijampala30@gmail.com",
+        "password": "$2a$10$2bpjZVMgY0nU85kTuum1h.ISCKvkDoHXXBxxS00fI7HlVf8HLcsZq",
+        "role": "member",
+        "created_at": "2026-05-04T14:20:09.410Z"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "municipal complaint management system",
+        "description": "A Municipal Complaint Management System is a platform where people can report issues in their local area like garbage problems, road damage, water leakage, or streetlight failures. Instead of going to offices physically, users can submit complaints online and track their status.\n\nThe system helps authorities manage and resolve complaints efficiently by organizing them, assigning them to the right department, and updating their progress. It improves communication between citizens and the municipality and makes the whole process faster and more transparent.",
+        "owner_id": 2,
+        "created_at": "2026-05-04T16:10:35.174Z"
+      }
+    ],
+    "project_members": [
+      {
+        "id": 1,
+        "project_id": 1,
+        "user_id": 2,
+        "role": "admin",
+        "created_at": "2026-05-04T16:10:35.190Z"
+      }
+    ],
+    "tasks": []
+  },
+  "autoIncrement": {
+    "users": 2,
+    "projects": 1,
+    "project_members": 1,
+    "tasks": 0
+  }
+}

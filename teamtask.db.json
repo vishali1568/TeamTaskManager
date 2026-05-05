@@ -1,0 +1,23 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Test User",
+        "email": "test@example.com",
+        "password": "$2a$10$nnpd/Tr8yewny./XCCG/s.xbyXIuoKHSqFgcynIqqKqN2JOeaApJ.",
+        "role": "admin",
+        "created_at": "2026-05-05T09:10:57.342Z"
+      }
+    ],
+    "projects": [],
+    "project_members": [],
+    "tasks": []
+  },
+  "autoIncrement": {
+    "users": 1,
+    "projects": 0,
+    "project_members": 0,
+    "tasks": 0
+  }
+}
