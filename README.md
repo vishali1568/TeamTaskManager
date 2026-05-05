@@ -19,12 +19,12 @@ A full-stack task management application that allows teams to manage projects, a
 
 ## Setup Instructions
 
-1. Clone the Repository
+###1. Clone the Repository
 
   git clone https://github.com/vishali1568/TeamTaskManager.git  
   cd TeamTaskManager  
 
-2. Run Backend
+###2. Run Backend
 
   cd server  
   npm install  
@@ -33,7 +33,7 @@ A full-stack task management application that allows teams to manage projects, a
   Backend runs at:  
   http://localhost:4000  
 
-3. Run Frontend
+###3. Run Frontend
 
   cd client  
   npm install  
