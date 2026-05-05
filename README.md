@@ -21,26 +21,26 @@ A full-stack task management application that allows teams to manage projects, a
 
 1. Clone the Repository
 
-git clone https://github.com/vishali1568/TeamTaskManager.git  
-cd TeamTaskManager  
+  git clone https://github.com/vishali1568/TeamTaskManager.git  
+  cd TeamTaskManager  
 
 2. Run Backend
 
-cd server  
-npm install  
-node index.js  
+  cd server  
+  npm install  
+  node index.js  
 
-Backend runs at:  
-http://localhost:4000  
+  Backend runs at:  
+  http://localhost:4000  
 
 3. Run Frontend
 
-cd client  
-npm install  
-npm run dev  
+  cd client  
+  npm install  
+  npm run dev  
 
-Frontend runs at:  
-http://localhost:5173  
+  Frontend runs at:  
+  http://localhost:5173  
 
 ## API Endpoints
 
