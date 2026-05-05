@@ -1,30 +1,79 @@
-# Team Task Manager
+# TeamTaskManager
 
-A full-stack task management web app with role-based access control, project/team management, and task tracking.
+A full-stack task management application that allows teams to manage projects, assign tasks, and track progress with role-based access control.
 
 ## Features
-- Signup / login authentication with JWT
-- Project creation and membership management
-- Task creation, assignment, status updates, and overdue tracking
-- Role-based access control for project admins and members
-- REST API backend with SQLite database
-- React frontend powered by Vite
 
-## Setup
+- User authentication using JWT (Signup/Login)
+- Project and team management
+- Task creation, assignment, and updates
+- Task status tracking (Pending, In Progress, Blocked, Done)
+- Dashboard with task statistics
+- Role-based access (Admin / Member)
 
-### Backend
-1. Open a terminal in `C:\Users\visha\TeamTaskManager\server`
-2. Run `npm install`
-3. Start the server: `npm start`
-4. The backend API will run on `http://localhost:4000`
+## Tech Stack
 
-### Frontend
-1. Open a terminal in `C:\Users\visha\TeamTaskManager\client`
-2. Run `npm install`
-3. Start the frontend: `npm run dev`
-4. Open the browser at the URL shown by Vite (default `http://localhost:5173`)
+- Backend: Node.js, Express
+- Frontend: React (Vite)
+- Database: JSON (file-based storage)
+
+## Setup Instructions
+
+1. Clone the Repository
+
+git clone https://github.com/vishali1568/TeamTaskManager.git  
+cd TeamTaskManager  
+
+2. Run Backend
+
+cd server  
+npm install  
+node index.js  
+
+Backend runs at:  
+http://localhost:4000  
+
+3. Run Frontend
+
+cd client  
+npm install  
+npm run dev  
+
+Frontend runs at:  
+http://localhost:5173  
+
+## API Endpoints
+
+### Authentication
+
+Signup  
+POST /api/auth/signup  
+
+Login  
+POST /api/auth/login  
+
+### Tasks
+
+Get Task  
+GET /api/tasks/:id  
+
+Create Task  
+POST /api/tasks  
+
+Update Task  
+PUT /api/tasks/:id  
+
+### Dashboard
+
+GET /api/dashboard  
 
 ## Notes
-- The first user who signs up becomes an application admin.
-- Project admins can invite members by email and assign them the `admin` or `member` role.
-- Tasks can be marked as `Pending`, `In Progress`, `Blocked`, or `Done`.
+
+- The first user who signs up becomes an admin  
+- Admin users can assign tasks to others  
+- Tasks include due dates and status tracking  
+- Backend tested using Postman  
+
+##  Status
+
+Project is fully functional with working backend APIs and frontend integration.
