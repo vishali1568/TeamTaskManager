@@ -19,7 +19,7 @@ A full-stack task management application that allows teams to manage projects, a
 
 ## Setup Instructions
 
-  1. Clone the Repository
+1. Clone the Repository
 
   git clone https://github.com/vishali1568/TeamTaskManager.git  
   cd TeamTaskManager  
